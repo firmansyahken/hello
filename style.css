@@ -1,0 +1,118 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    overflow-y: hidden;
+    font-family: sans-serif;
+}
+
+.preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    min-height: 100vh;
+    width: 100%;
+    z-index: 99;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 1.5rem;
+    box-sizing: border-box;
+}
+
+.preloader h2 {
+    font-size: 28px;
+    text-align: center;
+}
+
+.preloader p {
+    font-size: 15px;
+    margin-top: 10px;
+    color: #888;
+    text-align: center;
+}
+
+.preloader button {
+    padding: 10px 40px;
+    box-sizing: border-box;
+    background-color: black;
+    color: white;
+    font-size: 18px;
+    margin-top: 50px;
+    outline: none;
+    outline: none;
+    border: none;
+}
+
+@keyframes faded {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+.preloader.disable {
+    animation: faded 1000ms;
+}
+
+.background {
+    width: 100%;
+    max-height: 100vh;
+    min-height: 101vh;
+    object-fit: cover;
+}
+
+.wrapper {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.wrapper .storybox {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 400px;
+    max-width: 400px;
+    width: 100%;
+    transform: translate(-50%, -50%);
+}
+
+.wrapper .storybox .image img {
+    width: 80%;
+    margin: auto;
+    display: block;
+}
+
+.storybox .board {
+    background-color: rgba(0,0,0,.7);
+    padding: 1rem 1.5rem;
+    box-sizing: border-box;
+}
+
+.storybox .board p:nth-child(1) {
+    color: white;
+    font-size: 20px;
+}
+
+.storybox .board p:nth-child(2) {
+    color: #ccc;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+@media (max-width: 480px) {
+    .wrapper .storybox {
+        min-width: 320px;
+        max-width: 320px;
+        width: 100%;
+    }
+}

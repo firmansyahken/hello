@@ -1,0 +1,85 @@
+{
+    "background": {
+        "main": "assets/bg-1.jpg",
+        "end": "assets/rooftop.webp"
+    },
+    "characters": {
+        "me": "assets/me.webp",
+        "she": "assets/she.webp",
+        "sad": "assets/sad.webp"
+    },
+    "stories": [
+        {
+            "name": "Wahyudi",
+            "image": "me",
+            "message": "Hello ***** Apa kabar?",
+            "background": "main"
+        },
+        {
+            "name": "Anounymous",
+            "image": "she",
+            "message": "Baik kok? ada apa ya?",
+            "background": "main"
+        },
+        {
+            "name": "Wahyudi",
+            "image": "me",
+            "message": "Andai dulu kita deketnya sebelum gue ikutan LKS",
+            "background": "main"
+        },
+        {
+            "name": "Anounymous",
+            "image": "she",
+            "message": "Perasaan deketnya dah lama deh, telat menyatakan kalik lebih tepatnya",
+            "background": "main"
+        },
+        {
+            "name": "Anounymous",
+            "image": "she",
+            "message": "Kenapa emangnya ?",
+            "background": "main"
+        },
+        {
+            "name": "Wahyudi",
+            "image": "me",
+            "message": "Ya gue mau minta pak **** supaya bawa kamu liat aku tanding!",
+            "background": "main"
+        },
+        {
+            "name": "Anounymous",
+            "image": "she",
+            "message": "WKWKKWKW bisa-bisa aja deh lo",
+            "background": "main"
+        },
+        {
+            "name": "Wahyudi",
+            "image": "me",
+            "message": "Cewe satu ini bikin lelah memang, lelah memendam perasaan!",
+            "background": "main"
+        },
+        {
+            "name": "Anounymous",
+            "image": "she",
+            "message": "Hih, maapken atuh euy,  Aku sebenernya disini udeh deket sama beberapa orang!",
+            "background": "main"
+        },
+        {
+            "name": "Wahyudi",
+            "image": "me",
+            "message": "Aku disini juga deket!",
+            "background": "main"
+        },
+        {
+            "name": "Wahyudi",
+            "image": "me",
+            "message": "Deket dengan Tuhan",
+            "background": "main"
+        },
+        {
+            "name": "Prolog",
+            "image": "sad",
+            "message": "Alhasil wahyudi pun langsung berlari dan meratapi kesedihannya di rooftop sekolah sembari menikmati senja",
+            "background": "end"
+        }
+    ]
+}
